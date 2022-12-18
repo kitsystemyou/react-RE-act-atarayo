@@ -1,6 +1,7 @@
 import './Character.css';
+import Content from './Content'
 
-export default function MyAccount() {
+export default function Character() {
     return (
       <div>
         <div className="logo-space">
@@ -8,9 +9,8 @@ export default function MyAccount() {
           className="logo" alt="logo" />
         </div>
         <div className="Character">
-        <main style={{ padding: '1rem 0' }}>
           <h2>Character</h2>
-        </main>
+          <Content name="ユヅ"/>
         </div>
       </div>
     );
