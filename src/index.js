@@ -12,7 +12,8 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="character" element={<Character />} />
+          <Route path="/character" element={<Character />} />
+          <Route path="/character/:characteID" element={<Character />} />
         </Routes>
     </BrowserRouter>,
   </React.StrictMode>

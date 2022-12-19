@@ -3,7 +3,12 @@
 }
 
 .logo-space{
-  background-color: #282c34;
+  background-color: #039e8a;
+  color:rgb(255, 255, 255)
+}
+
+.Link:visited{
+  color: #039e8a;
 }
 
 .logo{
@@ -35,13 +40,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(3600deg);
-  }
 }

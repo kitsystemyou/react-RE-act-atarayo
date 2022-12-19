@@ -7,6 +7,19 @@
   display: flex; /*横並び*/
 }
 
+.text {
+  display: inline-flexbox;
+}
+
+.cast-image{
+  height: 10vmin;
+}
+
+.twitter{
+  font-size: medium;
+  color:#2469ff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
